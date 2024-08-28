@@ -17,3 +17,79 @@ span{
 	font-family:sans-serif;
 	opacity:.3;
 }
+  .big{    
+        font-family:Andika;
+        font-size:40px;
+        color:#cf8811;    
+  }
+     .small{    
+        font-family:Andika;
+        font-size:30px;
+        color:#179600;    
+     }
+   @keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+.wrapper {
+  height: 50px;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing-demo {
+  width: 450px;
+  animation: typing 4s steps(22), blink .5s;
+  animation-interation-count:infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size:50px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+
+.king {
+  height: 45px;
+  /*This part is important for centering*/
+  display: grid;
+  place-items: center;
+}
+
+.typing {
+  width:300px;
+  animation: typing 2s steps(22), blink .5s;
+  animation-interation-count:infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace bold;
+  font-size:40px;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
