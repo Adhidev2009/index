@@ -27,6 +27,18 @@ span{
         font-size:30px;
         color:#179600;    
      }
+   #d1 {
+      
+      width: 125px;
+      height: 40px;
+      background-color:red;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      
+      
+   }
+   
    @keyframes example {
   0%   {background-color: red;}
   25%  {background-color: yellow;}
